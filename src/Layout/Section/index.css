@@ -1,0 +1,44 @@
+.heading-responsive {
+    
+    color:#cfd1d4;
+}   
+
+.body-text-responsive {
+    
+    color:grey;
+}
+
+.btn-responsive {
+    width:40%
+}
+
+.img-responsive {
+    width : 80%
+}
+
+
+@media screen and (max-width:900px) {
+
+
+    .heading-responsive {
+        font-size: 35px;
+        color:#cfd1d4;
+        text-align: center;
+    }  
+    
+    .body-text-responsive {
+        text-align: center;
+        color:grey;
+    }
+
+    .btn-responsive {
+        width:100%
+    }
+
+    .img-responsive {
+        width : 100%
+    }
+        
+    
+}
+

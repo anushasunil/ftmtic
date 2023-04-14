@@ -1,0 +1,54 @@
+.bodytext-responsive{
+padding-top : 30px
+}
+.icons-responsive{
+    text-align:right;
+}
+
+.list-responsive li{
+    
+    display:none;
+}
+
+.social-icon-responsive {
+    
+    text-align: right;
+}
+
+
+@media screen and (max-width:900px) {
+    .logo-responsive{
+        text-align: center;
+    }
+
+    .icons-responsive{
+        text-align: center;
+      
+
+    }
+    .bodytext-responsive{
+        text-align: center;
+       
+    }
+    .list-responsive{
+        text-align: center;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .list-responsive li{
+        list-style:none;
+        display:inline;
+        text-align: center;
+       
+        color:#cfd1d4;
+        padding-right:20px;
+        padding-left: 20px;
+    }
+
+    .social-icon-responsive{
+        text-align: center;
+        margin-left: 18%;
+        margin-right: 18%;
+    }
+
+}
