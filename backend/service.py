@@ -1,3 +1,4 @@
 def calculate_bmi(dets):
-    return dets.age * dets.weight * dets.height
+    print("userdets", dets)
+    return int(dets["age"]) * int(dets["weight"]) * int(dets["height"])
 

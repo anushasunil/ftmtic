@@ -13,7 +13,7 @@ const DietPage = () => {
     
     const handleClick = () =>{
 
-        fetch("/api/bmi", {
+        fetch("http://localhost:5000/api/bmi", {
             method: "POST",
             headers: {
                 "Content-type": "application/json"
@@ -21,13 +21,11 @@ const DietPage = () => {
             body: JSON.stringify(userDets)
         })
         .then(response=>response.json())
-        .then(processedData => {
-            setBmi(processedData);
-            console.log("success", processedData);
+        .then(data=> {
+            setBmi(data);
+            console.log("success", data);
         })
-        .catch(error => {
-            console.error("process error", error)
-        })
+        .catch(error => console.error("process error", error))
     }
 
     return (
