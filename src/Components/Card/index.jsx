@@ -15,6 +15,7 @@ const index = (props) => {
       <CardMedia
         component="img"
        image={props.image}
+       
      
         alt="Paella dish"
       />
