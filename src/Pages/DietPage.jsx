@@ -68,7 +68,7 @@ const DietPage = () => {
             <Buttons onClick={handleClick} sx={{ width: "100%", color: "#cfd1d4"
           }}/>
           <h2>user bmi below</h2>
-          <h3>{bmi}</h3>
+          <h3 style={{color: "white"}}>{bmi}</h3>
 
         </div>
         <Footer/>
