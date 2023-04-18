@@ -18,18 +18,10 @@ const index = (props) => {
       <div style={{ paddingTop: "3%", paddingBottom: "2%", paddingLeft: "9%" }}>
         <Grid container spacing={2} sx={{ background: "rgb(21,26,36)" }}>
           <Grid item xs={8} sm={4} md={4}>
-            <div
-              onClick={
-                (window.location.href =
-                  "https://diet-recommendation-system.streamlit.app/")
-              }
-            >
+            <div onClick={navigate("/Diet-and-Calorie-check")}>
               <Card
                 image={food}
                 text="Diet & Calorie Tracking"
-                onClick={navigate(
-                  "https://diet-recommendation-system.streamlit.app/"
-                )}
                 style={{ cursor: "pointer", backgroundColor: "red" }}
               />
             </div>
